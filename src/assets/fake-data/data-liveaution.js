@@ -1,14 +1,14 @@
 
 
-import img1 from '../images/product/product1.jpg'
-import img2 from '../images/product/product27.jpg'
-import img3 from '../images/product/product28.jpg'
-import img4 from '../images/product/product29.jpg'
-import img5 from '../images/product/product31.jpg'
-import img6 from '../images/product/product30.jpg'
-import img7 from '../images/product/product51.jpg'
-import img8 from '../images/product/product52.jpg'
-import img9 from '../images/product/product53.jpg'
+import img1 from '../images/product/malevich.jpg'
+import img2 from '../images/product/chagall.jpg'
+import img3 from '../images/product/mondrian.jpg'
+import img4 from '../images/product/kandinsky.jpg'
+import img5 from '../images/product/warhol.jpg'
+import img6 from '../images/product/banksy.jpg'
+import img7 from '../images/product/pollock.jpg'
+import img8 from '../images/product/picasso.jpg'
+import img9 from '../images/product/vrubel.jpg'
 
 
 import avt1 from '../images/author/author1.png'

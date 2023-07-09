@@ -1,6 +1,6 @@
 
 
-import img1 from '../images/slider/slider-1.jpg'
+import img1 from '../images/slider/9pointn.png'
 import img2 from '../images/slider/slider-5.png'
 import avt1 from '../images/slider/slider-4.png'
 
