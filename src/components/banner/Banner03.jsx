@@ -40,7 +40,17 @@ function Banner03(props) {
                             grabCursor={true}
                             centeredSlides={true}
                             spaceBetween={0}
-                            slidesPerView={3}
+                            breakpoints={{
+                                0: {
+                                    slidesPerView: 1,
+                                    },
+                                500: {
+                                    slidesPerView: 2,
+                                    },
+                                700: {
+                                    slidesPerView: 3,
+                                },
+                            }}
                             // autoplay={{
                             //     delay: 2500,
                             //     disableOnInteraction: true,
@@ -60,7 +70,7 @@ function Banner03(props) {
                             {
                                 data.map(idx =>(
                                     <SwiperSlide key={idx.id}>
-                                        <img src={idx.img} alt="Binasea"/>
+                                        <img src={idx.img} alt="9point"/>
                                     </SwiperSlide>
                                 ))
                             }
@@ -101,98 +111,7 @@ function Banner03(props) {
                                     </SwiperSlide>
                                 ))
                             }
-                            <SwiperSlide>
-                                <div className="tf-slider-item style-3">
-                                    <div className="content-inner">
-                                        <img src="assets/images/slider/slider-12.png" alt="Binasea" className="img-star star-1 ani4" />
-                                        <img src="assets/images/slider/slider-13.png" alt="Binasea" className="img-star star-2 ani5" />
-                                        <img src="assets/images/slider/slider-14.png" alt="Binasea" className="img-star star-3 ani4" />
-                                        <img src="assets/images/slider/slider-15.png" alt="Binasea" className="img-star star-4 ani5" />
-                                        <h1 className="heading">
-                                            Defind, Collect and Sell Super Rate <span>NFT</span>   
-                                        </h1>
-                                        <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed Cursus Ante Dapibus Diam.</p>
-                                        <div className="btn-slider ">
-                                            <Link to="/explore-v1" className="tf-button style-6">Explore now</Link>
-                                            <Link to="/create" className="tf-button style-7">Creat</Link>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tf-slider-item style-3">
-                                    <div className="content-inner">
-                                        <img src="assets/images/slider/slider-12.png" alt="Binasea" className="img-star star-1 ani4" />
-                                        <img src="assets/images/slider/slider-13.png" alt="Binasea" className="img-star star-2 ani5" />
-                                        <img src="assets/images/slider/slider-14.png" alt="Binasea" className="img-star star-3 ani4" />
-                                        <img src="assets/images/slider/slider-15.png" alt="Binasea" className="img-star star-4 ani5" />
-                                        <h1 className="heading">
-                                            Defind, Collect and Sell Super Rate <span>NFT</span>   
-                                        </h1>
-                                        <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed Cursus Ante Dapibus Diam.</p>
-                                        
-                                    </div>
-                                    
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tf-slider-item style-3">
-                                    <div className="content-inner">
-                                        <img src="assets/images/slider/slider-12.png" alt="Binasea" className="img-star star-1 ani4" />
-                                        <img src="assets/images/slider/slider-13.png" alt="Binasea" className="img-star star-2 ani5" />
-                                        <img src="assets/images/slider/slider-14.png" alt="Binasea" className="img-star star-3 ani4" />
-                                        <img src="assets/images/slider/slider-15.png" alt="Binasea" className="img-star star-4 ani5" />
-                                        <h1 className="heading">
-                                            Defind, Collect and Sell Super Rate <span>NFT</span>   
-                                        </h1>
-                                        <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed Cursus Ante Dapibus Diam.</p>
-                                        <div className="btn-slider ">
-                                            <Link to="/explore-v1" className="tf-button style-6">Explore now</Link>
-                                            <Link to="/create" className="tf-button style-7">Creat</Link>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tf-slider-item style-3">
-                                    <div className="content-inner">
-                                        <img src="assets/images/slider/slider-12.png" alt="Binasea" className="img-star star-1 ani4" />
-                                        <img src="assets/images/slider/slider-13.png" alt="Binasea" className="img-star star-2 ani5" />
-                                        <img src="assets/images/slider/slider-14.png" alt="Binasea" className="img-star star-3 ani4" />
-                                        <img src="assets/images/slider/slider-15.png" alt="Binasea" className="img-star star-4 ani5" />
-                                        <h1 className="heading">
-                                            Defind, Collect and Sell Super Rate <span>NFT</span>   
-                                        </h1>
-                                        <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed Cursus Ante Dapibus Diam.</p>
-                                        <div className="btn-slider ">
-                                            <Link to="/explore-v1" className="tf-button style-6">Explore now</Link>
-                                            <Link to="/create" className="tf-button style-7">Creat</Link>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide>
-                                <div className="tf-slider-item style-3">
-                                    <div className="content-inner">
-                                        <img src="assets/images/slider/slider-12.png" alt="Binasea" className="img-star star-1 ani4" />
-                                        <img src="assets/images/slider/slider-13.png" alt="Binasea" className="img-star star-2 ani5" />
-                                        <img src="assets/images/slider/slider-14.png" alt="Binasea" className="img-star star-3 ani4" />
-                                        <img src="assets/images/slider/slider-15.png" alt="Binasea" className="img-star star-4 ani5" />
-                                        <h1 className="heading">
-                                            Defind, Collect and Sell Super Rate <span>NFT</span>   
-                                        </h1>
-                                        <p className="sub-heading">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Integer Nec Odio. Praesent Libero. Sed Cursus Ante Dapibus Diam.</p>
-                                        <div className="btn-slider ">
-                                            <Link to="/explore-v1" className="tf-button style-6">Explore now</Link>
-                                            <Link to="/create" className="tf-button style-7">Creat</Link>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </SwiperSlide>
+                            
                         </Swiper>
                             </div>
                         

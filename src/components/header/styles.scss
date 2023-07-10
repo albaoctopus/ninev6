@@ -61,6 +61,7 @@ header {
             }
                 &.sun {
                     display: block;
+                    margin-left: 10px;
                 }
           }
           .tf-button {
@@ -81,12 +82,14 @@ header {
 
 .is_dark header #site-header-inner .header-right {
     .mode-switch {
+        margin-left: 10px;
         margin-right: 0;
         &.moon {
           display: block;
         }
         &.sun {
             display: none;
+            margin-left: 10px;
         }
     }
 }

@@ -49,7 +49,7 @@ const Header = () => {
                                 <div id="site-logo" className="clearfix">
                                     <div id="site-logo-inner">
                                         <Link to="/" rel="home" className="main-logo">
-                                            <h2>9.News</h2> 
+                                            <h4>9.News</h4> 
                                            
                                         </Link>
                                     </div>
