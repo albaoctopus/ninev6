@@ -26,7 +26,7 @@ const dataLiveaution = [
         create: 'Malevich',
         price : '5 ETH',
         avt : avt1,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 2,
@@ -35,7 +35,7 @@ const dataLiveaution = [
         create: 'Chagall',
         price : '5 ETH',
         avt : avt2,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F' 
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688' 
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ const dataLiveaution = [
         create: 'Mondrian',
         price : '5 ETH',
         avt : avt3,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ const dataLiveaution = [
         create: 'Kandinsky',
         price : '5 ETH',
         avt : avt4,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 5,
@@ -62,7 +62,7 @@ const dataLiveaution = [
         create: 'Warhol',
         price : '5 ETH',
         avt : avt5,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 6,
@@ -71,7 +71,7 @@ const dataLiveaution = [
         create: 'Banksy',
         price : '5 ETH',
         avt : avt6,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 7,
@@ -80,7 +80,7 @@ const dataLiveaution = [
         create: 'Pollock',
         price : '5 ETH',
         avt : avt1,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 8,
@@ -89,7 +89,7 @@ const dataLiveaution = [
         create: 'Picasso',
         price : '5 ETH',
         avt : avt2,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     {
         id: 9,
@@ -98,7 +98,7 @@ const dataLiveaution = [
         create: 'Vrubel',
         price : '5 ETH',
         avt : avt3,
-        con : '0x7F56637c9C7c97753350C67Cf3648dFc3818c15F'
+        con : '0x36a52a97655bB48D888758F554B1294c691f8688'
     },
     
 

@@ -60,7 +60,7 @@ function Banner01(props) {
                                             <p className="sub-heading">{idx.desc}</p>
                                             <div className="btn-slider ">
                                             <Web3Button
-          contractAddress={"0x7F56637c9C7c97753350C67Cf3648dFc3818c15F"}
+          contractAddress={"0x36a52a97655bB48D888758F554B1294c691f8688"}
           action={(contract) => contract.erc721.claim(1)}
           onSuccess={() => alert("Claimed!")}
           onError={(error) => alert(error.message)}
@@ -72,8 +72,7 @@ function Banner01(props) {
                                         </div>
                                         <div className="image">
                                             <div className="img-slider-main ani5"><img src={idx.img} alt="Binasea"/></div>
-                                            <img src={img2} alt="Binasea" className="img-slider-2 ani4" />
-                                            <img src={img2} alt="Binasea" className="img-slider-3 ani5" />
+                                            
                                             
                                             <div className="current-bid ">
                                                 <div className="title">Price</div>
