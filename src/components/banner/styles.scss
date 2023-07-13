@@ -5,7 +5,7 @@
 .tf-slider-item {
     @include flexitem;
     justify-content: space-between;
-    padding: 109px 0 95px;
+    padding: 0px 0 95px;
 
     @include desktop-1400 {
         flex-wrap: wrap;
@@ -840,9 +840,106 @@
         width: 99% !important;
     }
 }
+
+.bannerSwiper {
+    position: relative;
+}
+.card-box {
+    width: 397px;
+    background: linear-gradient(89.96deg, rgba(255, 255, 255, 0.05) 0.03%, rgba(255, 255, 255, 0.008) 49.66%, rgba(255, 255, 255, 0.05) 99.96%);
+    backdrop-filter: blur(2px);
+    padding: 31px 23px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.1);
+    height: 100%;
+    z-index: 3;
+    @include mobile {
+        width: 100%;
+    }
+
+    .top {
+        margin-bottom: 20px;
+        span {
+            font-size: 30px;
+            margin-right: 13px;
+        }
+
+        h6 {
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: -5px;
+
+            &.price {
+                background: linear-gradient(264.28deg, #DEC7FF -38.2%, #5C27FE 103.12%), #FFFFFF;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                margin-top: 5px;
+                margin-bottom: 0;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .content {
+        .image {
+            height: 349px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-bottom: 17px;
+            @include mobile {
+                height: auto;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        .info {
+            align-items: center;
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 13px;
+            }
+
+            h6 {
+                font-weight: 600;
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+
+            p {
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+    }
+
+    &:hover {
+        .content {
+            .image{
+                img {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+}
+
+
 .slider-thump {
-    perspective: 887px !important;
-    margin-right: -11px;
+    perspective: 1090px !important;
+    margin-right: 0px;
     .swiper-wrapper {
         align-items: center;
     }
@@ -858,7 +955,7 @@
             object-fit: cover;
         }
         &.swiper-slide-active {
-            width: 320px !important;
+            width: 430px !important;
         }
     }
     

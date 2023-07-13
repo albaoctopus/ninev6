@@ -1,10 +1,10 @@
 
 
-import img1 from '../images/slider/octopus11.png'
-import img2 from '../images/slider/octopus21.png'
-import img3 from '../images/slider/octopus3.jpg'
-import img4 from '../images/slider/octopus4.jpg'
-import img5 from '../images/slider/octopus5.jpg'
+import img1 from '../images/slider/octopus31.png'
+import img2 from '../images/slider/octopus32.jpg'
+import img3 from '../images/slider/octopus33.jpg'
+import img4 from '../images/slider/octopus34.png'
+import img5 from '../images/slider/octopus35.jpg'
 
 const dataBanner2 = [
     {

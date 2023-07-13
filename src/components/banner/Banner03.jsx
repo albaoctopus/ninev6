@@ -51,10 +51,10 @@ function Banner03(props) {
                                     slidesPerView: 3,
                                 },
                             }}
-                            // autoplay={{
-                            //     delay: 2500,
-                            //     disableOnInteraction: true,
-                            //   }}
+                            autoplay={{
+                            delay: 2500,
+                            disableOnInteraction: true,
+                               }}
                             coverflowEffect={{
                                 rotate: 0,
                                 stretch: 15,
@@ -64,16 +64,17 @@ function Banner03(props) {
                               }}
                             thumbs={{ swiper: thumbsSwiper }}
                             modules={[Autoplay, FreeMode, Thumbs , EffectCoverflow]}
-                            className=" mySwiper2 slider-thump"
+                            className=" mySwiper2 slider-thump bannerSwiper "
                         >
 
                             {
                                 data.map(idx =>(
-                                    <SwiperSlide key={idx.id}>
+                                    <SwiperSlide key={idx.id} >
                                         <img src={idx.img} alt="9point"/>
                                     </SwiperSlide>
                                 ))
                             }
+                           
                    
                         </Swiper>
                         <Swiper
